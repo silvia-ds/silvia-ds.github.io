@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about me</title>
+    <link rel="icon" type="image/png" href="images/star.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="about-grid">
+
+            <!-- ABOUT CARD -->
+            <div class="project-card">
+                <div class="project-info">
+                    <div class="card-header">
+                        <h3>about me</h3>
+                        <div class="card-controls">
+                            <button onclick="prevSlide('about')">&lt;</button>
+                            <button onclick="nextSlide('about')">&gt;</button>
+                        </div>
+                    </div>
+
+                    <div class="card-slide about-slide active">
+                        <p>
+                            i'm a computer science student interested in full stack development,
+                            ui design, and building things that feel intuitive to use.
+                        </p>
+                    </div>
+
+                    <div class="card-slide about-slide">
+                        <p>
+                            i started with game development, which taught me how much
+                            i enjoy the intersection of logic, visuals, and interaction.
+                        </p>
+                    </div>
+
+                    <div class="card-slide about-slide">
+                        <p>
+                            recently, i've been working in automation and enjoy creating
+                            tools that improve workflows and user experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SKILLS CARD -->
+            <div class="project-card">
+                <div class="project-info">
+                    <div class="card-header">
+                        <h3>skills</h3>
+                        <div class="card-controls">
+                            <button onclick="prevSlide('skills')">&lt;</button>
+                            <button onclick="nextSlide('skills')">&gt;</button>
+                        </div>
+                    </div>
+
+                    <div class="card-slide skills-slide active">
+                        <p><strong>languages</strong></p>
+                        <div class="skills-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="card-slide skills-slide">
+                        <p><strong>frameworks & libraries</strong></p>
+                        <div class="skills-list">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">.NET</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">scikit-learn</span>
+                        </div>
+                    </div>
+
+                    <div class="card-slide skills-slide">
+                        <p><strong>tools & environments</strong></p>
+                        <div class="skills-list">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Jira</span>
+                            <span class="skill-tag">Visio</span>
+                            <span class="skill-tag">Microsoft Word</span> 
+                            <span class="skill-tag">Excel</span>                           
+                            <span class="skill-tag">Linux (Bash scripting)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT CARD -->
+            <!-- CONTACT CARD -->
+            <div class="project-card">
+                <div class="project-info">
+                    <div class="card-header">
+                        <h3>contact</h3>
+                    </div>
+
+                    <div class="contact-list">
+                        <a href="mailto:silvia.das@torontomu.ca" class="contact-item">
+                            silvia.das@torontomu.ca
+                        </a>
+
+                        <a href="https://github.com/silvia-ds" target="_blank" class="contact-item">
+                            github.com/silvia-ds
+                        </a>
+
+                        <a href="https://linkedin.com/in/silviadas" target="_blank" class="contact-item">
+                            linkedin.com/in/silviadas
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="about.js"></script>
+</body>
+</html>
